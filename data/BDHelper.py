@@ -24,10 +24,10 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 
-token = "319089622:AAHpkzVhVejeKUCqlPJUvW_1zt1MO_wAyvc"
+token = "342095978:AAFY2txFqUVz4_TcVXZT65--Efz9asjzn0g"
 bot = telebot.TeleBot(token)
 redis = redis.StrictRedis(host='localhost', port=6379, db=0)
-sudo = 265541133
+sudo = 342293523
 dos = 'moderation.json'
 
 f = "\n \033[01;30m Bot Firstname: {} \033[0m".format(bot.get_me().first_name)
@@ -2508,34 +2508,34 @@ def inline(call):
 			if call.data == "about"+str(target):
 				if not lang:
 					markup = types.InlineKeyboardMarkup()
-					a = types.InlineKeyboardButton(text="AlphaCyber", url="https://telegram.me/AlphaCyber")
+					a = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
                                         markup.add(a)
-					n = types.InlineKeyboardButton(text="AnonyDev", url="https://telegram.me/AnonyDev")
+					n = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(n)
-					b = types.InlineKeyboardButton(text="SoliD", url="https://telegram.me/SoLiD")
+					b = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(b)
-					c = types.InlineKeyboardButton(text="ToOfan", url="https://telegram.me/ToOfan")
+					c = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(c)
-					d = types.InlineKeyboardButton(text="TheNIS", url="https://telegram.me/localfunction")
+					d = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(d)
-					e = types.InlineKeyboardButton(text="Makan", url="https://telegram.me/MAKAN")
+					e = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(e)
 					h = types.InlineKeyboardButton("🔙 Back", callback_data='option'+str(target))
 					markup.add(h)
-					bot.edit_message_text("*BDReborn Helper Bot Version 1.0 Developers*", inline_message_id = call.inline_message_id, reply_markup=markup, parse_mode='Markdown')
+					bot.edit_message_text("*King Helper Bot Version 1.0 Developers*", inline_message_id = call.inline_message_id, reply_markup=markup, parse_mode='Markdown')
 				else:
 					markup = types.InlineKeyboardMarkup()
-					a = types.InlineKeyboardButton(text="AlphaCyber", url="https://telegram.me/AlphaCyber")
+					a = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
                                         markup.add(a)
-					n = types.InlineKeyboardButton(text="AnonyDev", url="https://telegram.me/AnonyDev")
+					n = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(n)
-					b = types.InlineKeyboardButton(text="SoliD", url="https://telegram.me/SoLiD")
+					b = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(b)
-					c = types.InlineKeyboardButton(text="ToOfan", url="https://telegram.me/ToOfan")
+					c = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(c)
-					d = types.InlineKeyboardButton(text="TheNIS", url="https://telegram.me/localfunction")
+					d = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(d)
-					e = types.InlineKeyboardButton(text="Makan", url="https://telegram.me/MAKAN")
+					e = types.InlineKeyboardButton(text="mohammad", url="https://telegram.me/mohammadhasanmrad")
 					markup.add(e)
 					h = types.InlineKeyboardButton("🔙 بازگشت", callback_data='option'+str(target))
 					markup.add(h)
