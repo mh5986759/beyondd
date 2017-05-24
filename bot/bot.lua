@@ -1,4 +1,7 @@
 
+-- #Beyond Reborn Robot
+-- #@BeyondTeam
+
 tdcli = dofile('./libs/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
@@ -81,13 +84,13 @@ function create_config( )
 	    "fun",
 	},
     sudo_users = {
-  342293523,
+   342293523,
    sudo_id
 },
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[by mohammad ):
+    info_text = [[》mohammad
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
@@ -478,7 +481,3 @@ end
 		tdcli_function ({ID="GetChats", offset_order_="9223372036854775807", offset_chat_id_=0, limit_=20}, dl_cb, nil)    
 	end
 end
-
--- @permag_ir
--- @permag_bots
--- @permag
